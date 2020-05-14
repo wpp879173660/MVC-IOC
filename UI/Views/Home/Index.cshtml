@@ -1,0 +1,16 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+    <p>首先缓存,时间：@DateTime.Now</p>
+<h2>Index</h2>
+<div>
+    @foreach (var item in Model)
+    {
+        <div>@item.name</div>
+    }
+</div>
+
+@*@Html.Action("aa","bb",true)*@
+
